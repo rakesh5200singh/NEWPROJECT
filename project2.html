@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .banner{
+            min-height: 100vh;
+            width: 100%;
+            background-image:url(hero-bg1.png);
+            background-size: cover;
+            background-position: center;
+        }
+        .navbar{
+            margin: auto;
+            display: flex;
+            align-items: normal;
+            justify-content: space-between;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            padding: 10px;
+        }
+        .navbar ul li a{
+            text-decoration: underline;
+            color: orange;
+            text-transform: uppercase;
+        }
+        
+        .navbar ul li a:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo.jpg" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">kitchen</a></li>
+                <li><a href="#">Park</a></li>
+                <li><a href="#">garden</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
